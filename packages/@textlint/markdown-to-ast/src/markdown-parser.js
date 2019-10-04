@@ -3,7 +3,7 @@
 const traverse = require("traverse");
 const { ASTNodeTypes } = require("@textlint/ast-node-types");
 const StructuredSource = require("structured-source");
-const debug = require("debug")("@textlint/markdown-to-ast");
+const debug = require("debug-es5")("@textlint/markdown-to-ast");
 const SyntaxMap = require("./mapping/markdown-syntax-map");
 const unified = require("unified");
 const remarkParse = require("remark-parse");

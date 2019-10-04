@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "@textlint/ast-node-types": "^4.2.4",
-    "debug": "^4.1.1",
+    "debug-es5": "github:featurist/debug",
     "remark-frontmatter": "^1.2.0",
     "remark-parse": "^5.0.0",
     "structured-source": "^3.0.2",
