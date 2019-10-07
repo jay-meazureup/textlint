@@ -64,6 +64,5 @@
       "post-commit": "git reset",
       "pre-commit": "lint-staged"
     }
-  },
-  "dependencies": {}
+  }
 }
